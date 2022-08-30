@@ -1,0 +1,146 @@
+---
+title: "August 30 Class"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse) 
+library(rstanarm)
+set.seed(08192020)
+```
+
+### Module 1 Recap:
+
+- Read 2 previous writing projects and summarized research questions
+
+\vfill
+
+- One paragraph summary of what you plan to work on _or_ a few topics that you would like to explore deeper
+\vfill
+
+For next week:
+
+- Schedule a meeting to talk to at least one faculty member about writing project ideas
+\vfill
+- Read an article related to an area you are interested in exploring for your writing project. Google scholar can be a good place to start. Try to identify the key points and think about how the article flows from data to understanding.
+\vfill
+- Identify the key points for your proposed writing project(Schimel Exercise 2.2, Step 1). Bring 2 written copies for next week:
+    1. What is your opening? This should identify the larger problem to which you are contributing, give readers a sense of the direction your paper is going, and make it clear why it is important. It should engage the widest audience practical.
+    \vfill
+    2. What is your specific question or hypothesis?
+    \vfill
+    3. What do you anticipate will be the key results of your work? Identify these in a short list. There should be no more than two or three points.
+    \vfill
+    4. [Think about, but you don't need to write this out.] What is your main conclusion? What did you learn? This should use the results from 3 to anser the question from 2, and should address the larger problem identified in 1.
+
+\newpage
+
+### Writing Science
+
+Ideas from "Writing Science" by Joshua Schimel
+
+\vfill
+- "As a scientist, you are a professional writer."
+
+\vfill
+
+>> As you focus on writing clearly, you force yourself to think more clearly. Improving your writing will help you become successful, both because it allows you to communicate your ideas more effectively, making them accessible to the widest audience, and also because it makes your thinking, and thus your science, better.
+
+\vfill
+- The author's job is to make the reader's job easy.
+
+\vfill
+- "Shitty First Drafts. All good writers write them. That is how they end up with good second drafts and terrific third drafts.
+\vfill
+
+Science Writing is Storytelling
+\vfill
+- A paper doesn't only present our data - it also interprets them. A paper tells a story about nature and how it works; it builds the story from the data but the data are not the story. The papers that get cited the most and the proposals that get funded are those that tell the most compelling stories.
+\vfill
+- In looking for the story, remember that when we do science, we get data from the mass spectrometer, the DNA sequencer, or the telescope, but our ultimate goal is not those data - it is the understanding we derive from them.
+\vfill
+- The role of scientists is to collect data and transform them into understanding. Their role as authors is to present that understanding.
+\vfill
+- The data are supporting actors in the story you tell. The lead actors are the questions and the larger issues you are addressing. The story grows from the data, but the data are not the story.
+\vfill
+- There are 3 aspects to effective story telling. The first is content - what makes a story engage and stay with us? The second is structure - how do you put together that content to make it easy to understand? The third is language - how do you write the story in the most compelling way possible?
+
+\newpage
+
+### ASCCR and POWER
+
+Eric Vance and Heather Smith developed "the ASCCR Framework for Learning Essential Collaboration Skills," which we will use throughout the class. Snippets of the paper are provided below. Reading this paper will be part of Module 2 for next week's class.
+
+- __A:__ Attitude:
+- __S:__ Structure
+- __C:__ Content
+- __C:__ Communication
+- __R:__ Relationship
+
+\vfill
+
+For today's class, we will focus on Structure.
+\vfill
+
+- Meetings will be the primary means of interaction between clients and statisticians.
+\vfill
+- Organizing and leading __effective__ meetings is an essential skill.
+\vfill
+- Collaboration meetings, especially the initial meeting, require balancing a large amount of information. So a checklist type structure can be a useful tool.
+\vfill
+__POWER__
+
+- Prepare:
+
+>>Effective collaborators prepare for an upcoming meeting by becoming mentally, physically, and emotionally ready. Mental preparation includes reviewing the agenda, notes of previous meetings, and any materials the domain expert has sent. It also includes reviewing any unfamiliar terminology or statistical methods the domain expert referred to in her communications. Physical preparation includes arriving at the meeting room with sufficient time to arrange furniture as well as attending to physical needs prior to the meeting. Emotional preparation includes completing—before the meeting begins—unrelated tasks that might distract from the upcoming meeting, allowing one to focus on the domain expert and her research/business questions. 
+
+\newpage
+
+- Open:
+
+>>“Win the opening, win the meeting. Win the meeting, win the collaboration,” which is to say that, based on our experience, an effective opening sets the remainder of the meeting on a trajectory for success because it establishes the structure for the meeting. Similarly, an effective and efficient initial meeting enables the collaboration to flourish. A series of conversations at the beginning of a meeting are key to an effective opening, including:
+
+\vfill
+
+1. _Greeting_ Introduce oneself and ensure that everyone in the room (or on the video/call) has been introduced; smile; make eye contact; shake hands; generally, help the domain expert feel comfortable, which could include engaging in small talk if mutually desired.
+\vfill
+2. _Time conversation_ Check if the scheduled meeting time still works for everyone and whether they can stay longer if it would be useful. For example, ask: “Does it still work for you to meet for [1 hour]? If we’re being productive, for how long after [1 hour] could you stay? I could stay until [time]; I have another meeting in [1.5 hours].”
+\vfill
+3. _Short-term wanted conversation_ Ask what the domain expert would like to accomplish during this particular meeting. The statistical collaborator should consider adding her own goals to the domain expert’s wants or even stating these goals before asking the domain expert. For example,consider saying, “I would like to learn more about your research/business project because it helps me determine the best statistical analysis methods to use. What specifically would you like to accomplish during the [1 hour] we have for this meeting?”
+
+    – a. Paraphrase the domain expert’s goals in one’s own words, write them where everyone can see (e.g., a whiteboard), and ask, “Is there anything else?”
+
+    – b.  In collaboration with the domain expert, prioritize the listed goals to create an initial agenda for the rest of the meeting.
+
+    – c. If an agenda for the meeting has already been created, review the agenda items to ensure they are still relevant and ask if anything should be added.
+\vfill
+4. _Willing conversation_ —Determine if one is willing to accomplish what the domain expert wants. Initially determine this for oneself and then communicate this to the domain expert. This can occur later in the meeting when one has a better understanding of what is needed to accomplish the meeting goals.
+\vfill
+5. _Able conversation_ —Determine if one is able to accomplish all that the domain expert wants. This also can occur later in the meeting. The statistician should communicate her willingness and ability to proceed in the collaboration.
+\vfill
+6. _Medium- and long-term goals and timelines_ Ask what the domain expert would like to accomplish during the medium- term (e.g., by the end of the semester or the fiscal quarter) and the long-term (e.g., 1+ years) of her project. Ask about any upcoming deadlines and the overall timeframe of the project.
+
+\newpage
+
+- Work:
+
+>>After these opening conversations are completed, we recommend transitioning into the working phase of the meeting by asking the domain expert to explain in more detail her over all research or business goals. Essentially, the entire ASCCR Frame applies to the working phase of every meeting. With a collaborative attitude, effective statisticians operate within the structure they have created for the meeting to learn about the domain expert’s project and work with her to address her short- term content goals for the meeting and medium- and long-term content goals for the project while communicating effectively and building or strengthening the relationship.
+
+\vfill
+
+- End
+
+>>From our extensive experience, statistical collaboration meetings too often end in a rush, and decisions made or next steps to be taken are forgotten unless sufficient time is dedicated to summarizing the meeting, outlining the next steps for the project, and recording the summary and next steps in writing. We recommend reserving and dedicating 10–20% of the meeting time to have a complete ending of the meeting (e.g., 10 min for a 60-min meeting).
+
+>>During the ending, summarize all major decisions made. Ask the domain expert, “What can I clarify?” Specifically review the domain expert’s initial goals for the meeting and what the outcome was. Ask if the domain expert’s goals were satisfactorily accomplished. If a goal was not satisfactorily addressed, devise a plan to address it (e.g., schedule another meeting or commit to addressing the issue over E-mail).
+
+>>The statistician should clarify with the domain expert any deadlines for the project and discuss a plan. Both parties should agree on a timeline for this plan. Specifically, the statistician and domain expert should agree on who will carry out each item of the plan, when it will be done, and how they will communicate to the other that it was done. The end of a meeting is a great time to schedule a follow-up meeting or decide how and when a follow-up meeting will be initiated.
+
+>>Finally, the statistician should compose a meeting summary report that records the decisions made, the next step action items, the timelines for these actions, and how or when the next meeting will be scheduled. The statistician should ideally send this meeting summary to the domain expert immediately after the meeting and solicit corrections or additions to the summary. Sometimes the statistician will write all of the salient points on a whiteboard during the meeting, in which case sending a photo of the whiteboard to the domain expert might suffice as a written meeting summary report.
+
+\vfill
+
+- Reflect:
+
+>>To gain the most benefit from the POWER Structure, we believe it is imperative for the statistician to reflect on what aspects of the meeting and the structure went well and where there may be opportunities for improvement. After the meeting has been summarized and ended, it may be beneficial to ask the domain expert to help in this reflection. One might ask, “What aspects of today’s meeting did you find especially effective? What opportunities can you see to improve the way our meetings are structured in the future?”
