@@ -1,0 +1,59 @@
+---
+title: "September 6 Class"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse) 
+library(rstanarm)
+set.seed(08192020)
+```
+
+### Module 2 Recap:
+
+- Started discussion on ASCCR and POWER, had mock opening conversation
+
+\vfill
+
+- Overview of science writing as storytelling
+
+\vfill
+
+- Schedule a meeting to talk to at least one faculty member about writing project ideas
+\vfill
+- Read an article related to an area you are interested in exploring for your writing project. Google scholar can be a good place to start. Try to identify the key points and think about how the article flows from data to understanding.
+\vfill
+- Identify the key points for your proposed writing project(Schimel Exercise 2.2, Step 1). Bring 2 written copies for next week:
+    1. What is your opening? This should identify the larger problem to which you are contributing, give readers a sense of the direction your paper is going, and make it clear why it is important. It should engage the widest audience practical.
+    \vfill
+    2. What is your specific question or hypothesis?
+    \vfill
+    3. What do you anticipate will be the key results of your work? Identify these in a short list. There should be no more than two or three points.
+    \vfill
+    4. [Think about, but you don't need to write this out.] What is your main conclusion? What did you learn? This should use the results from 3 to anser the question from 2, and should address the larger problem identified in 1.
+
+\vfill
+
+For next week:
+
+- Updated your proposed writing project.
+
+\vfill
+
+- For the following week, we will have faculty sign off on writing projects proposals, so continue those discussions.
+
+\vfill
+
+- Read the SCRS-request form. Please bring a list of questions that you'd like to ask the client. Additionally bring a list of questions about the statistical content from the form.
+
+
+\vfill
+
+Today:
+
+1. Peer review of project proposals.
+2. Overview of the SCRS request form + practice opening discussions.
+3. Continuation of POWER.
+4. If time, practice the end discussion.
+
